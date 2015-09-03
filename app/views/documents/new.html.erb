@@ -1,3 +1,8 @@
-<%= form_for @document do |form| %>
-  <%= form.file_field :pdf %>
+<h1>Add a File!</h1>
+<p>do it....</p>
+<%= form_for @document do |f| %>
+  <%= f.label "Document"%>
+  <%= f.text_field :name, placeholder: "Name your document" %>
+  <%= f.file_field :pdf %>
+  <%= f.submit %>
 <% end %>

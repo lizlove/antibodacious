@@ -10,6 +10,8 @@ class DocumentsController < ApplicationController
 
   def create
     @document = Document.create(document_params)
+    binding.pry
+    redirect_to documents_path
   end
 
   def show

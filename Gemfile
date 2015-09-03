@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'pry'
 gem "paperclip", "~> 4.3"
 gem 'pdf-reader'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

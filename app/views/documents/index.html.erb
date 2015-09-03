@@ -1,0 +1,7 @@
+<h1>All The Documents</h1>
+
+<ol>
+  <% @documents.each do |document| %>
+  <li><a href=<%= document_path(document.id) %>><%= document.name %></a></li>
+  <% end %>
+</ol>

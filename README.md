@@ -1,5 +1,7 @@
 # antibodacious
 
+![Antibody](https://classconnection.s3.amazonaws.com/833/flashcards/2682833/jpg/turqouiseantibody-structure1362768151517.jpg)
+
 Run `brew install elasticsearch` followed by `elasticsearch` to start the Elasticsearch server. Then run `Document.import` in the Rails console to create the Elasticsearch index. Now you should be able to query:
 
 ```

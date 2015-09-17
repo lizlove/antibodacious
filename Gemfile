@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'pry'
 gem "paperclip", "~> 4.3"
 gem 'pdf-reader'
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
